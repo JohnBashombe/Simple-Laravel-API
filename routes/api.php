@@ -26,6 +26,6 @@ Route::get('/posts', [PostControllers::class, 'index']);
 
 Route::post('/posts', [PostControllers::class, 'create']);
 
-Route::put('/posts/{post}',[PostControllers::class, 'update']);
+Route::put('/posts/{post}', [PostControllers::class, 'update']);
 
 Route::delete('/posts/{post}', [PostControllers::class, 'destroy']);
